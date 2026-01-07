@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secure Login Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="icon">👤</div>
+  <h2 id="formTitle">Login Portal</h2>
+
+  <div id="loginForm">
+    <input type="text" id="loginEmail" placeholder="Email or Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button id="loginBtn">Login</button>
+    <p>Don't have an account? <a href="#" id="goToRegister">Register</a></p>
+    <div id="loginMsg"></div>
+  </div>
+
+  <div id="registerForm" style="display:none;">
+    <input type="text" id="regUsername" placeholder="Username">
+    <input type="email" id="regEmail" placeholder="Email">
+    <input type="password" id="regPassword" placeholder="Password">
+    <button id="registerBtn">Register</button>
+    <p>Already registered? <a href="#" id="goToLogin">Login</a></p>
+    <div id="registerMsg"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
