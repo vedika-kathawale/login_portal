@@ -54,5 +54,5 @@ success.png
 6. Soft gradient background & smooth animations
 7. Beginner-friendly and easy to understand code
 
-# author
-vedika kathawale
+# Author
+Vedika Kathawale
